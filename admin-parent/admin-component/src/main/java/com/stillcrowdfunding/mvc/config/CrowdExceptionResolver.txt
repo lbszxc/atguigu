@@ -1,0 +1,66 @@
+package com.stillcrowdfunding.mvc.config;
+
+import com.google.gson.Gson;
+import com.stillcrowdfunding.until.CrowdUtil;
+import com.stillcrowdfunding.until.ResultEntity;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.ControllerAdvice;
+import org.springframework.web.bind.annotation.ExceptionHandler;
+import org.springframework.web.servlet.ModelAndView;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
+
+/**
+ * 基于注解异常映射
+ * @author Administrator
+ * @date 2020/6/16 11:01
+ * @description
+ **/
+
+// @ControllerAdvice表示当前是一个基于注解异常处理的类
+@ControllerAdvice
+public class CrowdExceptionResolver {
+
+    // @ExceptionHandler将一个具体的异常类型和方法关联起来
+    @ExceptionHandler(value = NullPointerException.class)
+    public ModelAndView resolveNullPointerException(/* 实际捕获的异常类型 */NullPointerException exception,
+            /* 当前请求的对象 */ HttpServletRequest request,
+            /* 当前响应的对象 */ HttpServletResponse response) throws IOException {
+
+        // 1.判断请求的类型
+        boolean judgeRequest =  CrowdUtil.judgeRequestType(request);
+
+        // 2.如果是Ajax请求
+        if(judgeRequest){
+
+            // 3.创建ResultEntity对象
+            ResultEntity<Object> resultEntity =   ResultEntity.failed(exception.getMessage());
+
+            // 4.创建Gson对象
+            Gson gson = new Gson();
+
+            // 5.将ResultEntity对象转换为JSON字符串
+            String json = gson.toJson(resultEntity);
+
+            // 6.将JSON字符串作为响应体返回给浏览器
+            response.getWriter().write(json);
+
+            // 7.由于上面已经通过原生态的response对象返回了响应，所以不提供ModelAndView对象
+            return null;
+        }
+
+        // 8.如果不是Ajax请求则创建ModelAndView对象
+        ModelAndView modelAndView = new ModelAndView();
+
+        // 9.将Exception对象存入模型
+        modelAndView.addObject("exception",exception);
+
+        // 10.设置对应的返回视图名称
+        modelAndView.setViewName("system-error");
+
+        // 11.返回ModelAndView对象
+        return modelAndView;
+    }
+}

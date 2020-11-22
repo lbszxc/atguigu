@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/admin-parent/admin-webui" />
+    <file type="web" url="file://$PROJECT_DIR$/pro02-spring-security" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/admin-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/admin-util/pom.xml" />
+        <option value="$PROJECT_DIR$/admin-reverse/pom.xml" />
+        <option value="$PROJECT_DIR$/common-reverse/pom.xml" />
+        <option value="$PROJECT_DIR$/common-util/pom.xml" />
+        <option value="$PROJECT_DIR$/pro01-spring-annotation/pom.xml" />
+        <option value="$PROJECT_DIR$/pro02-spring-security/pom.xml" />
+        <option value="$PROJECT_DIR$/pro03-spring-boot/pom.xml" />
+        <option value="$PROJECT_DIR$/pro04-spring-boot-auto-project/pom.xml" />
+        <option value="$PROJECT_DIR$/pro05-spring-boot-read-yml/pom.xml" />
+        <option value="$PROJECT_DIR$/pro06spring-boot-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/pro06-spring-boot-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/pro07-spring-boot-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/pro08-spring-boot-thymeleaf/pom.xml" />
+        <option value="$PROJECT_DIR$/pro09-spring-cloud-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/member-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/short-message/pom.xml" />
+        <option value="$PROJECT_DIR$/pro11-spring-session-a/pom.xml" />
+        <option value="$PROJECT_DIR$/pro12-spring-session-b/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/member-parent/member-provide/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

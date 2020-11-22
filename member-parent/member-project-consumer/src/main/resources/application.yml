@@ -1,0 +1,23 @@
+server:
+  port: 5000
+spring:
+  application:
+    name: lbs-crowd-project
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+  redis:
+    host: 127.0.0.1
+  session:
+    store-type: redis
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1000/eureka/
+aliyun:
+  oss:
+    access-key-id: LTAI4G186wso4WPFL5QnsuRM
+    access-key-secret: OFexUvs3lRjjFRDiMJyAfVJ81TmQkE
+    bucket-domain: http://lbs200814.oss-cn-chengdu.aliyuncs.com
+    bucket-name: lbs200814
+    end-point: http://oss-cn-chengdu.aliyuncs.com

@@ -1,0 +1,35 @@
+package com.stillcrowdfunding.exception;
+
+/**
+ * 登录失败后抛出异常
+ * @author Administrator
+ * @date 2020/6/17 11:34
+ * @description
+ **/
+public class LoginFailedException extends RuntimeException{
+
+
+    private static final long serialVersionUID = 1L;
+
+    public LoginFailedException() {
+        super();
+    }
+
+    protected LoginFailedException(String message, Throwable cause,
+                      boolean enableSuppression, boolean writableStackTrace) {
+        super(message, cause, enableSuppression, writableStackTrace);
+    }
+
+    public LoginFailedException(String message, Throwable cause) {
+        super(message, cause);
+    }
+
+    public LoginFailedException(String message) {
+        super(message);
+    }
+
+    public LoginFailedException(Throwable cause) {
+        super(cause);
+    }
+
+}

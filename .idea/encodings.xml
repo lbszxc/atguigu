@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/admin-parent/admin-component/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/admin-parent/admin-entity/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/admin-parent/admin-webui/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/admin-parent/admin-webui/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common-reverse/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common-reverse/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common-util/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/member-parent/member-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/member-parent/member-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/member-parent/member-authentication-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/member-parent/member-authentication-consumer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/member-parent/member-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/member-parent/member-consumer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/member-parent/member-entity/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/member-parent/member-entity/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/member-parent/member-eureka/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/member-parent/member-eureka/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/member-parent/member-mysql-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/member-parent/member-mysql-provider/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/member-parent/member-order-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/member-parent/member-order-consumer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/member-parent/member-pay-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/member-parent/member-pay-consumer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/member-parent/member-project-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/member-parent/member-project-consumer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/member-parent/member-redis-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/member-parent/member-redis-provider/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/member-parent/member-zuul/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/member-parent/member-zuul/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/member-parent/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pro01-spring-annotation/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pro02-spring-security/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pro02-spring-security/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pro03-spring-boot-maven-project/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pro04-spring-boot-auto-project/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pro05-spring-boot-read-yml/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pro06-spring-boot-mybatis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pro07-spring-boot-redis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pro08-spring-boot-thymeleaf/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pro11-spring-session-a/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pro12-spring-session-b/src/main/java" charset="UTF-8" />
+  </component>
+</project>

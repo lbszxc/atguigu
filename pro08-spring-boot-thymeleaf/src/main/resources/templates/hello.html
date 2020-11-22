@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>测试Thymeleaf</title>
+    <style type="text/css">
+        #test{
+           width: 100px;
+           height: 80px;
+           border: 1px solid black;
+        }
+        #part01,#part02,#part03{
+            width: 280px;
+            height: 80px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+
+    <h3>替换标签体</h3>
+    <!-- 服务器解析Thymeleaf代码时，会读取th:text属性的值，用这个值替换原本标签内的值 -->
+    <p th:text="经过服务器处理后可以看到的内容">直接在浏览器上打开的时候可以看到的内容</p>
+
+    <h3>替换属性值</h3>
+    <input type="text" value="old-value" th:value="new-value"/>
+
+    <h3>测试div替换背景</h3>
+    <div style="background-color: red" th:style="'background-color:blue'" id="test">
+    </div>
+
+<!--    <h3>测试图片</h3>-->
+<!--    <img src="../templates/img/赵云.jpg" th:src="@{/templates/img/猴子.jpg}"/>-->
+
+    <h3>访问属性域</h3>
+    <p th:text="${attrNameRequestScope}">访问请求域（方式一）</p>
+    <p th:text="${#httpServletRequest.getAttribute('attrNameRequestScope')}">访问请求域（方式二）</p>
+    <p th:text="${session.attrNameSessionScope}">访问Session域</p>
+    <p th:text="${application.attrNameAppScope}">访问Application域</p>
+
+    <h3>获取contextPath的值</h3>
+    <p th:text="@{/springboot}">@{}作用是把contextPath的值附加到指定的地址</p>
+    <a href="../zxc/abc/a.html" th:href="@{/zxc/abc/a.html}">请到指定的页面</a>
+
+    <h3>直接执行表达式</h3>
+    有转义效果：<p>[[${attrNameRequestScope}]]</p>
+    无转义效果：<p>[(${attrNameRequestScope})]</p>
+
+    <h3>判断字符串是否为空</h3>
+    判断内容为：
+    <p th:if="${not #strings.isEmpty(attrNameRequestScope)}">attrNameRequestScope不为空</p>
+    <p th:if="${#strings.isEmpty(attrNameRequestScope)}">attrNameRequestScope为空</p>
+
+    <h3>遍历集合</h3>
+    <div>
+        <!-- th:each所在的标签会出现多次-->
+        <p th:text="${str}" th:each="str : ${list}"></p>
+
+    </div>
+    <h3>包含页面片段</h3>
+    <!-- “::”左边的值拼前后缀后必须能够要找到要包含的文件 -->
+    <!-- “::”右边的值代码片段的名字 -->
+    <div id="part01" th:include="~{include/part :: myFirstPart}"></div>
+    <div id="part02" th:insert="~{include/part :: mySecondPart}"></div>
+    <div id="part03" th:replace="~{include/part :: myThirdPart}"></div>
+</body>
+</html>

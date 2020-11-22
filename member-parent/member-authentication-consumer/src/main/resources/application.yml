@@ -1,0 +1,27 @@
+server:
+  port: 4000
+spring:
+  application:
+    name: lbs-crowd-auth
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+  redis:
+    host: 127.0.0.1
+  session:
+    store-type: redis
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1000/eureka/
+short:
+  message:
+    host: https://feginesms.market.alicloudapi.com
+    path: /codeNotice
+    phone-num: 15170785990
+    app-code: 3e106ae0df8e46c9be3eac67b0b89a65
+    sign: 151003
+    skin: 84683
+ribbon:
+  ReadTimeout: 10000
+  ConnectTimeout: 10000

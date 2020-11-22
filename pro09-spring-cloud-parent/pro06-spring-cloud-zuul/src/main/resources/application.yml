@@ -1,0 +1,21 @@
+server:
+  port: 9000
+spring:
+  application:
+    name: lbs-zuul-gateway
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:5000/eureka/
+zuul:
+  #ignored-services:                 # 忽略指定微服务名称，让用户不能通过微服务名称访问
+  #  - lbs-feign-consumer
+  ignored-services: '*'            # 忽略所有微服务名称
+  prefix: /wangguan                 # 给访问路径添加统一前缀
+  routes:
+    employee:                         # 自定义路由规则的名称，在底层的数据结构中是Map 的键
+      service-id: lbs-feign-consumer    # 目标微服务名称，ZuulRoute 类型的一个属性
+      path: /zuul-emp/**             # 用来代替目标微服务名称的路径，ZuulRoute 类型的一个属性
+
+  # /**表示匹配多层路径，如果没有加/**则不能匹配后续的多层路径了
+

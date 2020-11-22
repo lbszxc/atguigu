@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="admin-webui" />
+        <module name="pro03-spring-cloud-consumer" />
+        <module name="member-project-consumer" />
+        <module name="pro02-spring-security" />
+        <module name="member-eureka" />
+        <module name="pro04-spring-cloud-eureka" />
+        <module name="member-pay-consumer" />
+        <module name="member-entity" />
+        <module name="member-zuul" />
+        <module name="admin-component" />
+        <module name="pro04-spring-boot-auto-project" />
+        <module name="pro07-spring-boot-redis" />
+        <module name="pro05-spring-cloud-hystrix-dashboard" />
+        <module name="member-api" />
+        <module name="member-authentication-consumer" />
+        <module name="pro05-spring-boot-read-yml" />
+        <module name="pro03-spring-cloud-feign-consumer" />
+        <module name="member-order-consumer" />
+        <module name="pro11-spring-session-a" />
+        <module name="member-mysql-provider" />
+        <module name="admin-entity" />
+        <module name="pro12-spring-session-b" />
+        <module name="pro06-spring-boot-mybatis" />
+        <module name="pro01-spring-annotation" />
+        <module name="member-redis-provider" />
+        <module name="pro01-spring-cloud-common" />
+        <module name="common-util" />
+        <module name="pro08-spring-boot-thymeleaf" />
+        <module name="pro10-short-message" />
+        <module name="member-consumer" />
+        <module name="pro06-spring-cloud-zuul" />
+        <module name="common-reverse" />
+        <module name="pro02-spring-cloud-provider" />
+      </profile>
+      <profile name="Annotation profile for pro03-spring-boot" enabled="true">
+        <sourceOutputDir name="../pro03-spring-boot/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../pro03-spring-boot/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="pro03-spring-boot-maven-project" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="admin-component" target="1.7" />
+      <module name="admin-entity" target="1.7" />
+      <module name="admin-parent" target="1.8" />
+      <module name="admin-webui" target="1.7" />
+      <module name="common-reverse" target="1.7" />
+      <module name="common-util" target="1.7" />
+      <module name="member-api" target="1.7" />
+      <module name="member-authentication-consumer" target="1.7" />
+      <module name="member-consumer" target="1.7" />
+      <module name="member-entity" target="1.7" />
+      <module name="member-eureka" target="1.7" />
+      <module name="member-mysql-provider" target="1.7" />
+      <module name="member-order-consumer" target="1.7" />
+      <module name="member-parent" target="1.7" />
+      <module name="member-pay-consumer" target="1.7" />
+      <module name="member-project-consumer" target="1.7" />
+      <module name="member-redis-provider" target="1.7" />
+      <module name="member-zuul" target="1.7" />
+      <module name="pro01-spring-annotation" target="1.7" />
+      <module name="pro01-spring-cloud-common" target="1.5" />
+      <module name="pro02-spring-cloud-provider" target="1.5" />
+      <module name="pro02-spring-security" target="1.7" />
+      <module name="pro03-spring-boot-maven-project" target="1.8" />
+      <module name="pro03-spring-cloud-consumer" target="1.5" />
+      <module name="pro03-spring-cloud-feign-consumer" target="1.5" />
+      <module name="pro04-spring-boot-auto-project" target="1.8" />
+      <module name="pro04-spring-cloud-eureka" target="1.5" />
+      <module name="pro05-spring-boot-read-yml" target="1.8" />
+      <module name="pro05-spring-cloud-hystrix-dashboard" target="1.5" />
+      <module name="pro06-spring-boot-mybatis" target="1.8" />
+      <module name="pro06-spring-cloud-zuul" target="1.5" />
+      <module name="pro07-spring-boot-redis" target="1.8" />
+      <module name="pro08-spring-boot-thymeleaf" target="1.8" />
+      <module name="pro09-spring-cloud-parent" target="1.5" />
+      <module name="pro10-short-message" target="1.5" />
+      <module name="pro11-spring-session-a" target="1.8" />
+      <module name="pro12-spring-session-b" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="pro03-spring-boot-maven-project" options="-parameters" />
+      <module name="pro04-spring-boot-auto-project" options="-parameters" />
+      <module name="pro05-spring-boot-read-yml" options="-parameters" />
+      <module name="pro06-spring-boot-mybatis" options="-parameters" />
+      <module name="pro07-spring-boot-redis" options="-parameters" />
+      <module name="pro08-spring-boot-thymeleaf" options="-parameters" />
+      <module name="pro11-spring-session-a" options="-parameters" />
+      <module name="pro12-spring-session-b" options="-parameters" />
+    </option>
+  </component>
+</project>

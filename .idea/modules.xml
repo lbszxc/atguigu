@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/admin-parent/admin-component/admin-component.iml" filepath="$PROJECT_DIR$/admin-parent/admin-component/admin-component.iml" />
+      <module fileurl="file://$PROJECT_DIR$/admin-parent/admin-entity/admin-entity.iml" filepath="$PROJECT_DIR$/admin-parent/admin-entity/admin-entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/admin-parent/admin-parent.iml" filepath="$PROJECT_DIR$/admin-parent/admin-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/admin-parent/admin-webui/admin-webui.iml" filepath="$PROJECT_DIR$/admin-parent/admin-webui/admin-webui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-reverse/common-reverse.iml" filepath="$PROJECT_DIR$/common-reverse/common-reverse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-util/common-util.iml" filepath="$PROJECT_DIR$/common-util/common-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/member-parent/member-api/member-api.iml" filepath="$PROJECT_DIR$/member-parent/member-api/member-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/member-parent/member-authentication-consumer/member-authentication-consumer.iml" filepath="$PROJECT_DIR$/member-parent/member-authentication-consumer/member-authentication-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/member-parent/member-consumer/member-consumer.iml" filepath="$PROJECT_DIR$/member-parent/member-consumer/member-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/member-parent/member-entity/member-entity.iml" filepath="$PROJECT_DIR$/member-parent/member-entity/member-entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/member-parent/member-eureka/member-eureka.iml" filepath="$PROJECT_DIR$/member-parent/member-eureka/member-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/member-parent/member-mysql-provider/member-mysql-provider.iml" filepath="$PROJECT_DIR$/member-parent/member-mysql-provider/member-mysql-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/member-parent/member-order-consumer/member-order-consumer.iml" filepath="$PROJECT_DIR$/member-parent/member-order-consumer/member-order-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/member-parent/member-parent.iml" filepath="$PROJECT_DIR$/member-parent/member-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/member-parent/member-pay-consumer/member-pay-consumer.iml" filepath="$PROJECT_DIR$/member-parent/member-pay-consumer/member-pay-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/member-parent/member-project-consumer/member-project-consumer.iml" filepath="$PROJECT_DIR$/member-parent/member-project-consumer/member-project-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/member-parent/member-redis-provider/member-redis-provider.iml" filepath="$PROJECT_DIR$/member-parent/member-redis-provider/member-redis-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/member-parent/member-zuul/member-zuul.iml" filepath="$PROJECT_DIR$/member-parent/member-zuul/member-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pro01-spring-annotation/pro01-spring-annotation.iml" filepath="$PROJECT_DIR$/pro01-spring-annotation/pro01-spring-annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pro09-spring-cloud-parent/pro01-spring-cloud-common/pro01-spring-cloud-common.iml" filepath="$PROJECT_DIR$/pro09-spring-cloud-parent/pro01-spring-cloud-common/pro01-spring-cloud-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pro09-spring-cloud-parent/pro02-spring-cloud-provider/pro02-spring-cloud-provider.iml" filepath="$PROJECT_DIR$/pro09-spring-cloud-parent/pro02-spring-cloud-provider/pro02-spring-cloud-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pro02-spring-security/pro02-spring-security.iml" filepath="$PROJECT_DIR$/pro02-spring-security/pro02-spring-security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pro03-spring-boot-maven-project/pro03-spring-boot-maven-project.iml" filepath="$PROJECT_DIR$/pro03-spring-boot-maven-project/pro03-spring-boot-maven-project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pro09-spring-cloud-parent/pro03-spring-cloud-consumer/pro03-spring-cloud-consumer.iml" filepath="$PROJECT_DIR$/pro09-spring-cloud-parent/pro03-spring-cloud-consumer/pro03-spring-cloud-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pro09-spring-cloud-parent/pro03-spring-cloud-feign-consumer/pro03-spring-cloud-feign-consumer.iml" filepath="$PROJECT_DIR$/pro09-spring-cloud-parent/pro03-spring-cloud-feign-consumer/pro03-spring-cloud-feign-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pro04-spring-boot-auto-project/pro04-spring-boot-auto-project.iml" filepath="$PROJECT_DIR$/pro04-spring-boot-auto-project/pro04-spring-boot-auto-project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pro09-spring-cloud-parent/pro04-spring-cloud-eureka/pro04-spring-cloud-eureka.iml" filepath="$PROJECT_DIR$/pro09-spring-cloud-parent/pro04-spring-cloud-eureka/pro04-spring-cloud-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pro05-spring-boot-read-yml/pro05-spring-boot-read-yml.iml" filepath="$PROJECT_DIR$/pro05-spring-boot-read-yml/pro05-spring-boot-read-yml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pro09-spring-cloud-parent/pro05-spring-cloud-hystrix-dashboard/pro05-spring-cloud-hystrix-dashboard.iml" filepath="$PROJECT_DIR$/pro09-spring-cloud-parent/pro05-spring-cloud-hystrix-dashboard/pro05-spring-cloud-hystrix-dashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pro06-spring-boot-mybatis/pro06-spring-boot-mybatis.iml" filepath="$PROJECT_DIR$/pro06-spring-boot-mybatis/pro06-spring-boot-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pro09-spring-cloud-parent/pro06-spring-cloud-zuul/pro06-spring-cloud-zuul.iml" filepath="$PROJECT_DIR$/pro09-spring-cloud-parent/pro06-spring-cloud-zuul/pro06-spring-cloud-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pro07-spring-boot-redis/pro07-spring-boot-redis.iml" filepath="$PROJECT_DIR$/pro07-spring-boot-redis/pro07-spring-boot-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pro08-spring-boot-thymeleaf/pro08-spring-boot-thymeleaf.iml" filepath="$PROJECT_DIR$/pro08-spring-boot-thymeleaf/pro08-spring-boot-thymeleaf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pro09-spring-cloud-parent/pro09-spring-cloud-parent.iml" filepath="$PROJECT_DIR$/pro09-spring-cloud-parent/pro09-spring-cloud-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pro10-short-message/pro10-short-message.iml" filepath="$PROJECT_DIR$/pro10-short-message/pro10-short-message.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pro11-spring-session-a/pro11-spring-session-a.iml" filepath="$PROJECT_DIR$/pro11-spring-session-a/pro11-spring-session-a.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pro12-spring-session-b/pro12-spring-session-b.iml" filepath="$PROJECT_DIR$/pro12-spring-session-b/pro12-spring-session-b.iml" />
+    </modules>
+  </component>
+</project>
